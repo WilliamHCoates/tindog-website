@@ -1,0 +1,296 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+.big-heading {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.pricing-1-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-heading-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***************************************class selectors**************************/
+/* call to action */
+.cta {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS
+
+#title .colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.colored-section {
+
+}
+.white-section {
+
+}
+*/
+.title {
+  background-color: #ff4c68;
+}
+
+/* Features Section */
+.features {
+  background-color: #fff;
+}
+
+.feature-box {
+  color: #ef8172;
+  padding: 5%;
+}
+
+.features-h3 {
+  font-weight: bold;
+  line-height: 1.0;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image-a {
+  border-radius: 100%;
+  margin: 20px;
+  width: 18%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 18%;
+  margin: 20px;
+}
+
+/* PRESS PRESS PRESS PRESS PRESS PRESS */
+/* I went with .9375rem on padding first time */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  /* I originally did not use the 50px of bottom padding */
+}
+
+.press-img {
+  width: 15%;
+  padding: 1.25rem 1.25rem 3.125rem;
+}
+
+/*
+.copyright {
+
+
+  text-align: center;
+  padding-top: .9375rem;
+  padding-bottom: .9375rem;
+}
+*/
+/* Pricing */
+#pricing-1 {
+  padding: 100px;
+}
+
+.icon-dog:hover {
+  color: #ef8172;
+}
+
+.pricing-1-h2 {
+  color: #ef8172;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-box {
+  padding: 5%;
+}
+
+.pricing-subtext {
+  color: inherit;
+  padding: 5%;
+}
+
+/********************id selectors********************************************************************************************/
+#features {
+  background-color: #fff;
+
+  position: relative;
+}
+
+.features-h3 {
+  font-weight: bold;
+  line-height: 1.0;
+}
+
+/*
+#pricing {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+*/
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+/*  Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.signup-button {
+  margin: 5% 3% 5% 0;
+}
+
+.button {
+  margin-bottom: 1.875rem;
+}
+
+/* Title Image */
+/* carousel-testimonials */
+
+
+/* Card deck
+.card-deck {
+  text-align: center;
+  padding: 1% 15%;
+  color: #fff;
+}
+
+
+
+.card-body-1 {
+  color: #ef8172;
+  text-align: center;
+  padding: 2% 15%;
+  background-color: #fff;
+}
+*/
+.card-body-2 {
+  color: #ef8172;
+  padding: 2% 15%;
+  background-color: #fff;
+}
+
+/*
+.card-header {
+  background-color: #ff4c68;
+}
+
+.card-header-1 {
+  background-color: #ef8172;
+  color: #fff;
+}
+*/
+.card-header-2 {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* fontawesome */
+.icons {
+  color: #ef8172;
+  padding-bottom: .9375rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/*social icons*/
+.social-box {
+  margin: 1% 1%;
+}
+
+.social-icons {
+  margin: 1.75rem;
+}
+
+.social-icons:hover {
+  color: #ff4c68;
+}
+
+.social-media {
+  margin-left: 2.5rem;
+}
+
+.text-muted-copyright {
+  color: #ff4c68;
+  margin-left: 2.15rem;
+}
+
+#title .container-fluid{
+padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*width adjustment and 25 degree image rotation using transform and rotate */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*image rotation back to original position and straight up and down for viewing on mobile screens*/
